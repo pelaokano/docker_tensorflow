@@ -1,0 +1,14 @@
+# Ignorar carpetas
+*/
+
+# Ignorar archivos PDF
+*.pdf
+
+# Ignorar archivos de texto
+*.txt
+
+# Ignorar archivos comprimidos
+*.zip
+
+# Ignorar notebooks de Jupyter
+*.ipynb
