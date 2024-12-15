@@ -8,7 +8,7 @@ WORKDIR /app
 RUN apt-get update && apt-get install -y git
 
 # Clona el repositorio desde GitHub
-RUN git clone https://github.com/tu-usuario/tensorflow-app.git .
+RUN git clone https://github.com/pelaokano/docker_tensorflow.git .
 
 # Comando para ejecutar la aplicación
 CMD ["python", "prueba_tensorflow.py"]

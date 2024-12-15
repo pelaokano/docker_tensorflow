@@ -27,7 +27,7 @@ model.compile(optimizer='adam',
 
 # Entrenar el modelo
 print("Entrenando el modelo...")
-model.fit(x_train, y_train, epochs=1, validation_split=0.1, verbose=1)
+model.fit(x_train, y_train, epochs=10, validation_split=0.1, verbose=1)
 
 # Evaluar el modelo
 test_loss, test_acc = model.evaluate(x_test, y_test, verbose=2)
